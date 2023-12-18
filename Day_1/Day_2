@@ -1,0 +1,34 @@
+print("day 2")
+
+x, y , z = "1", "2", "3"
+print(x+y+z)
+
+x = 10
+y= 10
+Z,Q = "20"
+print(x+y)
+
+
+c = d = e= 10
+print(c+d)
+
+
+fruits = ["apple", "banana", "cherry"]
+f, g, h = fruits
+print(f)
+print(g)
+print(h)
+
+
+
+
+x = "awesome"
+
+def myfunc():
+  global x
+  x = "fantastic"
+  print("Python is " + x)
+
+myfunc()
+
+print("Python is " + x)
